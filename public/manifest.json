@@ -1,7 +1,7 @@
 {
-  "name": "Onyx",
-  "short_name": "Onyx",
-  "description": "A batteries included MVP Template.",
+  "name": "Onyx-resendit",
+  "short_name": "Onyx Resendit",
+  "description": "The future of e-commerce",
   "start_url": "/", 
   "display": "standalone",
   "background_color": "#fff",
