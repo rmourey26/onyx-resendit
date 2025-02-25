@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog"
-import { CuboidIcon as Cube, Zap, Shield, Globe, Cpu, type LucideIcon } from 'lucide-react'
+import { Cube, Zap, Shield, Globe, Cpu, type LucideIcon } from 'lucide-react'
 
 interface Feature {
   name: string;
