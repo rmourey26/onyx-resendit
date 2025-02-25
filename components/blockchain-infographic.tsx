@@ -5,9 +5,16 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog"
-import { CuboidIcon as Cube, Zap, Shield, Globe, Cpu } from 'lucide-react'
+import { CuboidIcon as Cube, Zap, Shield, Globe, Cpu, type LucideIcon } from 'lucide-react'
 
-const defaultFeatures = [
+interface Feature {
+  name: string;
+  icon: LucideIcon;
+  color: string;
+  description: string;
+}
+
+const defaultFeatures: Feature[] = [
   { name: "Decentralized", icon: Cube, color: "bg-blue-500", description: "Distributed ledger technology ensures transparency and eliminates single points of failure." },
   { name: "Fast", icon: Zap, color: "bg-yellow-500", description: "High-speed transactions and real-time updates across the supply chain." },
   { name: "Secure", icon: Shield, color: "bg-green-500", description: "Advanced cryptography protects data integrity and prevents unauthorized access." },
@@ -15,8 +22,12 @@ const defaultFeatures = [
   { name: "Intelligent", icon: Cpu, color: "bg-red-500", description: "AI-powered analytics for predictive maintenance and optimized routing." },
 ]
 
-export default function BlockchainInfographic({ features = defaultFeatures }) {
-  const [selectedFeature, setSelectedFeature] = useState(null)
+interface BlockchainInfographicProps {
+  features?: Feature[];
+}
+
+export default function BlockchainInfographic({ features = defaultFeatures }: BlockchainInfographicProps) {
+  const [selectedFeature, setSelectedFeature] = useState<Feature | null>(null)
   const [isDialogOpen, setIsDialogOpen] = useState(false)
 
   return (
@@ -55,7 +66,13 @@ export default function BlockchainInfographic({ features = defaultFeatures }) {
   )
 }
 
-function FeatureBlock({ feature, index, onClick }) {
+interface FeatureBlockProps {
+  feature: Feature;
+  index: number;
+  onClick: () => void;
+}
+
+function FeatureBlock({ feature, index, onClick }: FeatureBlockProps) {
   const Icon = feature.icon
   const angle = (index / defaultFeatures.length) * 360
   const translateZ = 150
@@ -80,7 +97,13 @@ function FeatureBlock({ feature, index, onClick }) {
   )
 }
 
-function FeatureDialog({ feature, isOpen, onClose }) {
+interface FeatureDialogProps {
+  feature: Feature;
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+function FeatureDialog({ feature, isOpen, onClose }: FeatureDialogProps) {
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent>
