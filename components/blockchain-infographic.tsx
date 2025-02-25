@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog"
-import { Cube, Zap, Shield, Globe, Cpu, type LucideIcon } from 'lucide-react'
+import { Network, Zap, Shield, Globe, Cpu, type LucideIcon } from 'lucide-react'
 
 interface Feature {
   name: string;
@@ -15,7 +15,7 @@ interface Feature {
 }
 
 const defaultFeatures: Feature[] = [
-  { name: "Decentralized", icon: Cube, color: "bg-blue-500", description: "Distributed ledger technology ensures transparency and eliminates single points of failure." },
+  { name: "Decentralized", icon: Network, color: "bg-blue-500", description: "Distributed ledger technology ensures transparency and eliminates single points of failure." },
   { name: "Fast", icon: Zap, color: "bg-yellow-500", description: "High-speed transactions and real-time updates across the supply chain." },
   { name: "Secure", icon: Shield, color: "bg-green-500", description: "Advanced cryptography protects data integrity and prevents unauthorized access." },
   { name: "Global", icon: Globe, color: "bg-purple-500", description: "Seamless integration of international logistics and cross-border transactions." },
