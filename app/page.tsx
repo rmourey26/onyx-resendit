@@ -6,7 +6,7 @@ import { readUserSession } from "@/utils/actions";
 import Features from "@/components/features"
 import AnimatedInfographic from "@/components/animated-infographic"
 import WhyResendItWrapper from "@/components/whyresenditwrapper"
-import CTA from "@/components/cta";
+import Cta from "@/components/cta";
 
 import { redirect } from "next/navigation";
 
@@ -37,7 +37,7 @@ export default async function IndexPage() {
          Sustainable, brandable, reusable with blockchain and AI technology under the hood.  
         </p>
       </div>
-       <CTA/>
+       <Cta/>
       <WhyResendItWrapper />
      <Features/>
    <AnimatedInfographic/>
