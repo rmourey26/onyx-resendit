@@ -57,8 +57,7 @@ export default function OnboardingPage() {
           <div className="relative z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                &ldquo;In 6 months, Resend-It has increased our conversions and NPS by 68% and
-                58% respectively.&rdquo;
+                &ldquo;In 6 months, Resend-It has increased our margins by 47%.&rdquo;
               </p>
               <footer className="text-sm">Sofia Davis</footer>
             </blockquote>
@@ -78,14 +77,14 @@ export default function OnboardingPage() {
             <p className="px-8 text-center text-sm text-muted-foreground">
               By clicking continue, you agree to our{" "}
               <Link
-                href="#"
+                href="/terms"
                 className="underline underline-offset-4 hover:text-primary"
               >
                 Terms of Service
               </Link>{" "}
               and{" "}
               <Link
-                href="#"
+                href="/privacy"
                 className="underline underline-offset-4 hover:text-primary"
               >
                 Privacy Policy
