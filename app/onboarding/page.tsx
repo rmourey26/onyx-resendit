@@ -44,10 +44,10 @@ export default function OnboardingPage() {
         <div className="relative hidden h-full flex-col bg-muted p-10 text-white md:flex dark:border-r">
           <div className="absolute inset-0 bg-gradient-to-r from-gray-700 via-gray-900 to-black">
           <Image
-          src="https://quantumone.b-cdn.net/onyx/resendit-ob2.jpg"
-          width={2048}
-          height={2048}b
-          alt="Onboarding-two"
+          src="https://quantumone.b-cdn.net/onyx/resendit-ob3.jpg"
+          width={576}
+          height={448}
+          alt="Onboarding-three"
           style={{objectFit: "contain"}}
           
         />
