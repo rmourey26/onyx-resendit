@@ -28,7 +28,7 @@ export function MobileNav() {
           <span className="sr-only">Toggle Menu</span>
         </Button>
       </SheetTrigger>
-<div className="xs:items-center ml-0 gap-4 md:hidden">
+<div className="xs:items-center ml-1 gap-4 md:hidden">
       <Link href="/" className="flex items-center space-x-2">
         <Icons.resendit className="h-5 w-18" />
 
