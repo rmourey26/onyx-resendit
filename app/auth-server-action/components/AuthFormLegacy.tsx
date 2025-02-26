@@ -20,7 +20,6 @@ export function AuthFormLegacy() {
 					<RegisterForm />
 				</TabsContent>
 			</Tabs>
-			<OAuthForm />
 		</div>
 	);
 }
