@@ -37,7 +37,7 @@ export default function OnboardingPage() {
         <Link
           href="/auth"
           className={cn(
-            buttonVariants({ variant: "ghost" }),
+            buttonVariants({ variant: "brand" }),
             "absolute right-4 top-4 md:right-8 md:top-8"
           )}
         >
@@ -53,9 +53,6 @@ export default function OnboardingPage() {
           style={{objectFit: "contain"}}
           
         />
-          </div>
-          <div className="relative z-20 flex items-center text-lg font-medium">
-          <Icons.resenditIcon className="h-6 w-6" /> 
           </div>
           <div className="relative z-20 mt-auto">
             <blockquote className="space-y-2">
