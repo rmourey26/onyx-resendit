@@ -14,14 +14,14 @@ export default function Cta() {
           transition={{ duration: 0.5 }}
           className="max-w-3xl mx-auto"
         >
-          <Card className="shadow-lg">
-            <CardHeader className="text-center">
+          <Card>
+            <CardHeader>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
-                <CardTitle className="text-3xl font-extrabold sm:text-4xl">Ready for the movement?</CardTitle>
+                <CardTitle>Ready for the movement?</CardTitle>
                 <CardDescription className="mt-2 text-2xl font-bold text-brand-green-dark dark:text-brand-green-light">
                   Book a demo today.
                 </CardDescription>
