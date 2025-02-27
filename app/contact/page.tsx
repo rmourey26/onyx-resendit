@@ -15,9 +15,6 @@ export default async function ContactPage() {
 
 
   const { data, error } = await supabase.auth.getUser()
-  if (error || !data?.user) {
-    redirect('/auth')
-  }
 
 
          return (
