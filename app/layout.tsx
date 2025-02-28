@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     url: "https://resend-it.com",
     images: [
       {
-        url: 'https://resend-it.com/og-image.jpg', // Must be an absolute URL
+        url: 'https://resend-it.com/opengraph-image.gif', // Must be an absolute URL
         width: 1230,
         height: 640,
       },
