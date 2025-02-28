@@ -3,8 +3,10 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { useState } from 'react'
 
 export default function Cta() {
+  const [isLoading, setIsLoading] = useState<boolean>(false)
   return (
     <section className="bg-gray-50 dark:bg-gray-900 py-4 sm:py-6 lg:py-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -43,9 +45,15 @@ export default function Cta() {
                 className="mt-8 flex justify-center"
               >
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                  <Button size="lg" className="px-8 py-3 text-lg font-semibold">
-                    Get started
-                  </Button>
+        <Link
+          target="_blank"
+          rel="noreferrer"
+          href={siteConfig.links.contact}
+          className={buttonVariants({ variant: "outline" size:"lg" })}
+        >
+          Get Started
+        </Link>
+                 
                 </motion.div>
               </motion.div>
             </CardContent>
