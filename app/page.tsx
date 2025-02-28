@@ -31,7 +31,7 @@ export default async function IndexPage() {
 
            <div className="place-self-center max-w-5xl aspect-video aspect-w-16 aspect-h-9 overflow-hidden rounded-lg shadow-lg space-y-8">
 
-<iframe className="aspect-w-16 aspect-h-9 overflow-hidden rounded-lg shadow-lg max-w-7/8" src="https://www.youtube.com/embed/rq0lS7ZKYFQ?si=GTgF6H3Rr78LRA2z" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/rq0lS7ZKYFQ?si=GTgF6H3Rr78LRA2z" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 </div>
         <p className="mt-4 max-w-2xl text-lg text-center text-muted-foreground sm:text-xl">
 Reduce waste, cut costs, and enhance logistics with our innovative, seamless solution. Smart, durable, eco-friendly, powered by blockchain tracking, rewards, and AI insight, Resend-It fuels the circular economy. 
