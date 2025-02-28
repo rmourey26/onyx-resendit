@@ -1,6 +1,6 @@
 {
-  "name": "Onyx-resendit",
-  "short_name": "Onyx Resendit",
+  "name": "Resend-It",
+  "short_name": "Resend-It",
   "description": "The future of e-commerce",
   "start_url": "/", 
   "display": "standalone",
