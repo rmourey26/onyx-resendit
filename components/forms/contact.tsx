@@ -107,7 +107,7 @@ export function Contact() {
                                                                 </FormControl>
                                                                 <FormDescription>
                                                                         {
-                                                                                ""
+                                                                                "Have any meetings specific details?"
                                                                         }
                                                                 </FormDescription>
                                                                 <FormMessage />
