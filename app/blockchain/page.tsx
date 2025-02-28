@@ -1,4 +1,5 @@
 import BlockchainInfographic from "@/components/blockchain-infographic";
+import { PromoVideo } from "@/components/ui/promo-video";
 
 export default function Page () {
     return (
@@ -8,7 +9,8 @@ export default function Page () {
           Blockchain Efficiency 
         </h1>
         <BlockchainInfographic />
-
+        <PromoVideo />
+       
         </div>
         </section>
     )
