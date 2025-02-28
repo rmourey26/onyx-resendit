@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { Contact } from "@/components/forms/contact";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
@@ -103,19 +104,8 @@ export default function AboutPage() {
             <CardTitle className="text-2xl font-semibold mb-4">Contact Us</CardTitle>
             <CardDescription>Have questions? Get in touch with our team.</CardDescription>
           </CardHeader>
-          <CardContent>
-            <form className="space-y-4">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <Input placeholder="First Name" />
-                <Input placeholder="Last Name" />
-              </div>
-              <Input type="email" placeholder="Email" />
-              <Textarea placeholder="Your message" />
-              <Button type="submit">
-                Send Message
-                <ChevronRight className="ml-2 h-4 w-4" />
-              </Button>
-            </form>
+          <CardContent> 
+           <Contact/>
           </CardContent>
         </Card>
       </motion.section>
