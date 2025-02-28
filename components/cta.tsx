@@ -23,7 +23,7 @@ export default function Cta() {
               >
                 <CardTitle className="text-3xl font-extrabold sm:text-4xl">Ready for the movement?</CardTitle>
                 <CardDescription className="mt-2 text-2xl font-bold text-brand-green-dark dark:text-brand-green-light">
-                  Book a demo today.
+                  Book a meeting today.
                 </CardDescription>
               </motion.div>
             </CardHeader>
