@@ -1,6 +1,7 @@
 "use client"
 
 import Link from 'next/link'
+import { siteConfig } from "@/config/site"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
