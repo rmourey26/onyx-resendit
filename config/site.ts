@@ -30,7 +30,7 @@ export const siteConfig = {
     signup: "https://resend-it.com/onboarding",
     resendit: "/",
     linkedin: "https://linkedin.com/in/resend-it",
-contact: "https://resend-it.com/contact",
+contact: "/contact",
 
   },
 }
