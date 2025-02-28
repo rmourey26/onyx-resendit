@@ -37,10 +37,8 @@ export const metadata: Metadata = {
     },
   },
   referrer: 'origin-when-cross-origin',
-  keywords: ['NextJS 14 TypeScript', 'Supabase SSR', 'TanStack React Query', 'vercel', 'openai', 'MVP Template', 'Onyx SaaS PWA template', 'Zod', 'Shadcn-UI', 'Tailwind CSS', 'SaaS', 'NextJS Supabase Postgres Tailwind TanStack', 'NextJS CSP',
-             'PWA', 'NextJS SaaS PWA Template', 'CRUD ops', 'secure headers', 'NextJS templates with user authentication, RBAC, and CRUD ops', 'NextJS templates with data validation and database integration',
-            'Rust API runtime for vercel serverless functions', 'NextJS secure headers', 'NextJS NextMDX'],
-  authors: [{ name: 'Robert Mourey Jr' }],
+  keywords: ['resusable packaging solutions', 'sustainable packaging', 'sustainable shipment', 'supply chain', 'logistics', 'blockchain', 'AI'],
+  authors: [{ name: 'Resend-It' }],
   creator: 'Robert Mourey Jr',
   publisher: 'Robert Mourey Jr', 
   formatDetection: {
@@ -72,7 +70,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
-    url: "https://fesend-It.com",
+    url: "https://resend-it.com",
     images: [
       {
         url: 'https://resend-it.com/og-image.jpg', // Must be an absolute URL
@@ -80,10 +78,10 @@ export const metadata: Metadata = {
         height: 640,
       },
       {
-        url: 'https://quantumone.b-cdn.net/onyx/opengraph-image.jpg', // Must be an absolute URL
-        width: 1800,
-        height: 1600,
-        alt: 'blockchain business',
+        url: 'https://quantumone.b-cdn.net/resendit/opengraph-image.gif', // Must be an absolute URL
+        width: 1600,
+        height: 900,
+        alt: 'resendit-gif',
       },
     ],
     locale: 'en_US',
@@ -101,7 +99,7 @@ export const metadata: Metadata = {
         height: 900,
       },
       {
-        url: 'https://quantumone.b-cdn.net/onyx/twitter-image.jpg',
+        url: 'https://quantumone.b-cdn.net/resendit/twitter-image.jpg',
         width: 1800,
         height: 900,
       },
