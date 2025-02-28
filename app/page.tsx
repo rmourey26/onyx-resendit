@@ -29,7 +29,7 @@ export default async function IndexPage() {
           Sustainable Shipping Reimagined
         </h1>
 
-           <div className="place-self-center max-w-5xl aspect-video aspect-w-16 aspect-h-9 overflow-hidden rounded-lg shadow-lg space-y-8">
+           <div className="place-self-center max-w-7xl aspect-video aspect-w-16 aspect-h-9 overflow-hidden rounded-lg shadow-lg space-y-8">
 
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rq0lS7ZKYFQ?si=GTgF6H3Rr78LRA2z" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 </div>
