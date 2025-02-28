@@ -26,7 +26,7 @@ export default async function IndexPage() {
             <section className="container max-w-7xl mx-auto flex flex-1 flex-col space-y-8 items-center gap-6 pb-16 pt-8 sm:pt-16 sm:pb-24">
       <div className="flex mx-auto flex-col px-4 md:px-6 lg:px-8 items-center text-center gap-2">
         <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-tight tracking-tighter md:text-6xl mb-4">
-          Packagings Paradigm Shift 
+          Sustainable Shipping Reimagined
         </h1>
 
            <div className="place-self-center max-w-5xl aspect-video aspect-w-16 aspect-h-9 overflow-hidden rounded-lg shadow-lg space-y-8">
