@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
-    manifest: 'https://onyx-rho-pink.vercel.app/manifest.json',
-  metadataBase: new URL('https://onyx-rho-pink.vercel.app'),
+    manifest: 'https://resend-it.com/manifest.json',
+  metadataBase: new URL('https://Resend-it.com'),
   alternates: {
     canonical: '/',
     languages: {
@@ -72,10 +72,10 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
-    url: "https://onyx-rho-pink.vercel.app",
+    url: "https://fesend-It.com",
     images: [
       {
-        url: 'https://onyx-rho-pink.vercel.app/og-image.jpg', // Must be an absolute URL
+        url: 'https://resend-it.com/og-image.jpg', // Must be an absolute URL
         width: 1230,
         height: 640,
       },
@@ -92,11 +92,11 @@ export const metadata: Metadata = {
     twitter: {
          title: siteConfig.name,
          description: siteConfig.description,
-         site: '@r_mourey_jr',
-         creator: '@r_mourey_jr',
+         site: '@resend-it',
+         creator: '@resend-it',
          images: [
       {
-        url: 'https://onyx-rho-pink.vercel.app/twitter-image.jpg', // Must be an absolute URL
+        url: 'https://resend-it.com/twitter-image.jpg', // Must be an absolute URL
         width: 1800,
         height: 900,
       },
