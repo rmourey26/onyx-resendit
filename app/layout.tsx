@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   referrer: 'origin-when-cross-origin',
   keywords: ['resusable packaging solutions', 'sustainable packaging', 'sustainable shipment', 'supply chain', 'logistics', 'blockchain', 'AI'],
   authors: [{ name: 'Resend-It' }],
-  creator: 'Robert Mourey Jr',
-  publisher: 'Robert Mourey Jr', 
+  creator: 'Robert Mourey Jr.',
+  publisher: 'Resend-It', 
   formatDetection: {
     email: false,
     address: false,
@@ -73,15 +73,15 @@ export const metadata: Metadata = {
     url: "https://resend-it.com",
     images: [
       {
-        url: 'https://resend-it.com/opengraph-image.gif', // Must be an absolute URL
+        url: 'https://resend-it.com/og-image.jpg', // Must be an absolute URL
         width: 1230,
         height: 640,
       },
       {
-        url: 'https://quantumone.b-cdn.net/resendit/opengraph-image.gif', // Must be an absolute URL
+        url: 'https://quantumone.b-cdn.net/resendit/og-image.jpg', // Must be an absolute URL
         width: 1600,
         height: 900,
-        alt: 'resendit-gif',
+        alt: 'resendit-logo',
       },
     ],
     locale: 'en_US',
