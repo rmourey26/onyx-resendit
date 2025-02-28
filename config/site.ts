@@ -26,10 +26,11 @@ export const siteConfig = {
   links: {
     twitter: "https://twitter.com/resend-it",
     github: "https://github.com/resend-it",
-    login: "https://onyx-s2rm-git-resendit-rmourey26s-projects.vercel.app/auth",
-    signup: "https://onyx-s2rm-git-resendit-rmourey26s-projects.vercel.app/onboarding",
+    login: "https://resend-it.com/auth",
+    signup: "https://resend-it.com/onboarding",
     resendit: "/",
     linkedin: "https://linkedin.com/in/resend-it",
+contact: "https://resend-it.com/contact",
 
   },
 }
