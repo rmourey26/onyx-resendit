@@ -40,7 +40,7 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground transition-colors hover:text-primary">
+                <Link href="/meeting" className="text-muted-foreground transition-colors hover:text-primary">
                   Meeting
                 </Link>
               </li>
