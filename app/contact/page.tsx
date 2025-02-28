@@ -29,7 +29,7 @@ export default async function ContactPage() {
                 Contact Us
               </h1>
               <p className="text-sm text-muted-foreground">
-                Rather talk? Call us at +1-555-867-5309.
+                Request a meeting or send us an inquiry.
               </p>
             </div>
                         <Contact/>
