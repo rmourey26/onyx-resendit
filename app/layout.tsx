@@ -78,10 +78,10 @@ export const metadata: Metadata = {
         height: 640,
       },
       {
-        url: 'https://quantumone.b-cdn.net/resendit/og-image.jpg', // Must be an absolute URL
-        width: 1600,
-        height: 900,
-        alt: 'resendit-logo',
+        url: 'https://quantumone.b-cdn.net/resendit/og-image.jpeg', // Must be an absolute URL
+        width: 1080,
+        height: 1080,
+        alt: 'resendit-token',
       },
     ],
     locale: 'en_US',
