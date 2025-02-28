@@ -21,6 +21,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { cn } from "@/lib/utils";
 import { useTransition, useState } from "react";
 import { updateInqueries } from '@/app/contact/actions'
+import { ChevronRight } from 'lucide-react'
 
 const ContactSchema = z.object({
         name: z.string().min(1, { message: "Name can not be empty" }),
@@ -120,10 +121,8 @@ export function Contact() {
                                 className="w-full flex items-center gap-2"
                                 variant="outline"
                         >
-                                Send{" "}
-                                <AiOutlineLoading3Quarters
-                                        className={cn(" animate-spin", { hidden: !isLoading })}
-                                />
+                                Send Message
+                                <ChevronRight/>
    </Button>
                                 </form>
                         </Form>
