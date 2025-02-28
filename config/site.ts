@@ -26,8 +26,8 @@ export const siteConfig = {
   links: {
     twitter: "https://twitter.com/resend-it",
     github: "https://github.com/resend-it",
-    login: "https://resend-it.com/auth",
-    signup: "https://resend-it.com/onboarding",
+    login: "/auth",
+    signup: "/onboarding",
     resendit: "/",
     linkedin: "https://linkedin.com/in/resend-it",
 contact: "/contact",
