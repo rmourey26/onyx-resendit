@@ -29,9 +29,9 @@ export default async function IndexPage() {
           Sustainable Shipping Reimagined
         </h1>
 
-           <div className="container flex max-w-5xl"> 
+           <div className="container items-center flex"> 
 
-<iframe className="aspect-video object-fill overflow-hidden rounded-lg shadow-lg space-y-8 lg:min-h-" src="https://www.youtube.com/embed/rq0lS7ZKYFQ?si=GTgF6H3Rr78LRA2z" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+<iframe className="aspect-video object-fill overflow-hidden rounded-lg shadow-lg space-y-8 lg:min-h-500" src="https://www.youtube.com/embed/rq0lS7ZKYFQ?si=GTgF6H3Rr78LRA2z"></iframe>
 </div>
         <p className="mt-2 max-w-2xl text-lg text-center text-muted-foreground sm:text-xl">
 Reduce waste, cut costs, and enhance logistics with our innovative, seamless solution. Smart, durable, eco-friendly, powered by blockchain tracking, rewards, and AI insight, Resend-It fuels the circular economy. 
