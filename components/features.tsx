@@ -36,7 +36,7 @@ export default function Features() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <h2 className="text-4xl font-extrabold leading-[1.1] sm:text-5xl md:text-6xl lg:text-7xl">Cutting-Edge Solutions</h2>
+        <h2 className="text-3xl font-extrabold leading-[1.1] sm:text-5xl md:text-6xl lg:text-7xl">Cutting-Edge Solutions</h2>
         <p className="mt-4 text-muted-foreground">
           Discover how Resend-It can transform your business with our patented reusable packaging and blockchain platform.
         </p>
