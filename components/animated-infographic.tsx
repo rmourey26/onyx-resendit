@@ -98,7 +98,7 @@ const AnimatedInfographic = () => {
   return (
     <Card className="w-full max-w-4xl mx-auto">
       <CardHeader>
-        <CardTitle className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center">Untapped Consumers</CardTitle>
+        <CardTitle className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center">Untapped Consumers</CardTitle>
       </CardHeader>
       <CardContent>
         <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8">
