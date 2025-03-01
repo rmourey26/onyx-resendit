@@ -25,7 +25,7 @@ export default function Cta() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
-                <CardTitle className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold">Ready for the movement?</CardTitle>
+                <CardTitle className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold">Ready for the movement?</CardTitle>
                 <CardDescription className="mt-2 text-2xl font-bold text-brand-green-dark dark:text-brand-green-light">
                   Book a meeting today.
                 </CardDescription>
