@@ -23,7 +23,7 @@ export default async function IndexPage() {
 		return redirect("/dashboard");
 	}
   return (
-            <section className="container max-w-7xl mx-auto flex flex-1 flex-col space-y-8 items-center gap-6 pb-16 pt-8 sm:pt-16 sm:pb-24">
+            <section className="container max-w-7xl mx-auto flex flex-1 flex-col space-y-8 items-center gap-6 xs:pb-16 xs:pt-12 sm:pt-16 sm:pb-24">
       <div className="flex mx-auto flex-col px-4 md:px-6 lg:px-8 items-center text-center gap-2">
         <h1 className="text-3xl sm:text-5xl lg:text-7xl font-extrabold leading-tight tracking-tighter md:text-6xl mb-6">
           Sustainable Shipping Reimagined
