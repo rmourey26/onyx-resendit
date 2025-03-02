@@ -21,14 +21,19 @@ export function SiteFooter() {
             <ul className="space-y-3 text-sm">
               <li>
                 <Link href="#" className="text-muted-foreground transition-colors hover:text-primary">
-                  Rewards
+                  Platform
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-muted-foreground transition-colors hover:text-primary">
-                  Contact
+                <Link href="#" className="text-muted-foreground transition-colors hover:text-primary">
+                  Rewards
                 </Link>
               </li>
+<li>
+                <Link href="#" className="text-muted-foreground transition-colors hover:text-primary">
+                 Partnerships
+                </Link>
+</li>
             </ul>
           </div>
           <div className="space-y-4">
@@ -40,10 +45,15 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
-                <Link href="/meeting" className="text-muted-foreground transition-colors hover:text-primary">
-                  Meeting
+                <Link href="/contact" className="text-muted-foreground transition-colors hover:text-primary">
+                  Contact Us
                 </Link>
               </li>
+<li>
+                <Link href="/contact" className="text-muted-foreground transition-colors hover:text-primary">
+                  Investors
+                </Link>
+</li>
             </ul>
           </div>
           <div className="space-y-4">
