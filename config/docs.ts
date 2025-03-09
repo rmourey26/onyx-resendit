@@ -22,11 +22,11 @@ export const docsConfig: DocsConfig = {
   ],
   sidebarNav: [
     {
-      title: "Tools",
+      title: "Platform",
       items: [
         {
-          title: "Sign Out",
-          href: "/signout",
+          title: "Coming soon!",
+          href: "#",
           items: [],
         },
       ],
