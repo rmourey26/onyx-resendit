@@ -1,6 +1,6 @@
 <a href="https://onyx-rho-pink.vercel.app/">
   <img alt="Onyx open graph image." src="https://quantumone.b-cdn.net/onyx-git/og-image.jpg">
-  <h1 align="center">Onyx MVP Template</h1>
+  <h1 align="center">Onyx PWA</h1>
 </a>
 
 <a href="https://securityheaders.com/">
