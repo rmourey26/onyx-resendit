@@ -75,21 +75,6 @@ export function SiteFooter() {
                 </div>
               </Link>
               <Link
-              href={siteConfig.links.twitter}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div
-                className={buttonVariants({
-                  size: "icon",
-                  variant: "ghost",
-                })}
-              >
-                <Icons.twitter className="h-4 w-4" />
-                <span className="sr-only">Twitter</span>
-              </div>
-            </Link>
-            <Link
               href={siteConfig.links.linkedin}
               target="_blank"
               rel="noreferrer"
@@ -100,7 +85,7 @@ export function SiteFooter() {
                   variant: "ghost",
                 })}
               >
-                <Icons.linkedin className="h-5 w-5" />
+                <Icons.twitter className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </div>
             </Link>
