@@ -25,7 +25,7 @@ export const siteConfig = {
     login: "/auth",
     signup: "/onboarding",
     resendit: "/",
-    linkedin: "https://linkedin.com/in/resend-it",
+    linkedin: "https://linkedin.com/company/resend-it",
 contact: "/contact",
 
   },
