@@ -73,14 +73,14 @@ export const metadata: Metadata = {
     url: "https://resend-it.com",
     images: [
       {
-        url: 'https://resend-it.com/og-image.jpg', // Must be an absolute URL
-        width: 1230,
-        height: 640,
+        url: 'https://resend-it.com/opengraph-image.png', // Must be an absolute URL
+        width: 576,
+        height: 448,
       },
       {
-        url: 'https://quantumone.b-cdn.net/resendit/og-image.jpeg', // Must be an absolute URL
-        width: 1080,
-        height: 1080,
+        url: 'https://quantumone.b-cdn.net/resendit/opengraph-image.png', // Must be an absolute URL
+        width: 1152,
+        height: 896,
         alt: 'resendit-token',
       },
     ],
