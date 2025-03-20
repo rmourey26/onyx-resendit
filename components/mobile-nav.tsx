@@ -22,7 +22,7 @@ export function MobileNav() {
       <SheetTrigger asChild>
         <Button
           variant="ghost"
-          className="mr-0 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
+          className="mr-auto px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
         >
                     <Icons.menu className="h-6 w-6" />
           <span className="sr-only">Toggle Menu</span>
