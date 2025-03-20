@@ -13,7 +13,7 @@ interface MainNavProps {
 export function MainNav({ items }: MainNavProps) {
   return (
     
-    <div className="mr-2 hidden gap-4 md:flex md:gap-8">
+    <div className="mr-auto hidden gap-4 md:flex md:gap-8">
         <Link href="/" className="flex items-center space-x-2">
           <Icons.resendit className="h-5 w-18" />
 
