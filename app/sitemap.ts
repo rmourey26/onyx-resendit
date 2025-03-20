@@ -5,8 +5,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: 'https://resend-it.com',
       lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
+      changeFrequency: 'daily',
+      priority: 0.1,
     },
     {
       url: 'https://resend-it.com/about',
