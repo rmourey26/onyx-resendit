@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
     manifest: 'https://resend-it.com/manifest.json',
-  metadataBase: new URL('https://Resend-it.com'),
+  metadataBase: new URL('https://resend-it.com'),
   alternates: {
     canonical: '/',
     languages: {
@@ -73,9 +73,9 @@ export const metadata: Metadata = {
     url: "https://resend-it.com",
     images: [
       {
-        url: 'https://resend-it.com/opengraph-image.png', // Must be an absolute URL
-        width: 576,
-        height: 448,
+        url: 'https://resend-it.com/opengraph-image.gif', // Must be an absolute URL
+        width: 1600,
+        height: 900,
       },
       {
         url: 'https://quantumone.b-cdn.net/resendit/opengraph-image.png', // Must be an absolute URL
