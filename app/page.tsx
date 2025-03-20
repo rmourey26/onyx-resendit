@@ -3,7 +3,7 @@ import Link from "next/link"
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import { readUserSession } from "@/utils/actions";
-import Features from "@/components/features"
+import Featurez from "@/components/features"
 import AnimatedInfographic from "@/components/animated-infographic"
 import WhyResendItWrapper from "@/components/whyresenditwrapper"
 import Cta from "@/components/cta";
@@ -38,7 +38,7 @@ Reduce waste, cut costs, and enhance logistics with our innovative, seamless sol
       </div>
        <Cta/>
       <WhyResendItWrapper />
-     <Features/>
+     <Featurez/>
    <AnimatedInfographic/>
     </section>
   )
