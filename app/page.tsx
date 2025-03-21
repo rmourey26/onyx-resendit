@@ -37,27 +37,22 @@ export default async function IndexPage() {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3 mt-6">
-            <Link href="/signup">
+            <Link href="/contact">
               <Button size="lg" className="inline-flex items-center">
                 Get Started
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
-            <Link href="#features">
-              <Button size="lg" variant="outline">
-                Learn More
-              </Button>
-            </Link>
           </div>
         </div>
         <div className="flex items-center justify-center lg:justify-end">
-          <div className="relative w-full max-w-3xl aspect-video rounded-lg overflow-hidden shadow-lg">
+          <div className="relative w-full max-w-lg aspect-video rounded-lg overflow-hidden shadow-lg">
            
 
 
   
 
-                <iframe className="aspect-video max-w-3xl w-full place-self-center overflow-hidden rounded-lg shadow-lg mb-6" src="https://www.youtube.com/embed/rq0lS7ZKYFQ?si=GTgF6H3Rr78LRA2z"></iframe>
+                <iframe className="aspect-video max-w-lg w-full place-self-center overflow-hidden rounded-lg shadow-lg mb-6" src="https://www.youtube.com/embed/rq0lS7ZKYFQ?si=GTgF6H3Rr78LRA2z"></iframe>
               </div>
             </div>
           </div>
