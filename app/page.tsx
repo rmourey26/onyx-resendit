@@ -32,7 +32,7 @@ export default async function IndexPage() {
   
 
 <iframe className="aspect-video max-w-3xl w-full place-self-center overflow-hidden rounded-lg shadow-lg" src="https://www.youtube.com/embed/rq0lS7ZKYFQ?si=GTgF6H3Rr78LRA2z"></iframe>
-        <p className="max-w-2xl text-sm sm:text-base xs:text-start md:text-justify text-muted-foreground">
+        <p className="max-w-3xl text-base xs:text-start md:text-justify text-muted-foreground">
 Reduce waste, drive revenue, and optimize your business cycle while rewarding your customers like never before. Powered by hybrid blockchain, AI, and cloud technologies, Resend-It fuels the circular economy. 
         </p>
       </div>
