@@ -35,7 +35,7 @@ export default async function IndexPage() {
 
 <iframe className="aspect-video max-w-3xl w-full place-self-center overflow-hidden rounded-lg shadow-lg" src="https://www.youtube.com/embed/rq0lS7ZKYFQ?si=GTgF6H3Rr78LRA2z"></iframe>
         <p className="max-w-3xl text-xl xs: text-justify md:text-justify text-muted-foreground">
-Reduce waste, drive revenue, and optimize your business cycle while rewarding your customers like never before. Powered by hybrid blockchain, AI, and cloud tech, Resend-It fuels the circular economy. 
+Reduce waste, drive revenue, and optimize your business cycle while rewarding your customers like never before. Powered by hybrid blockchain, AI, and cloud technology,the Resend-It platform fuels the circular economy. 
         </p>
        </div>
        </div>
