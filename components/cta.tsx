@@ -10,7 +10,7 @@ import { useState } from 'react'
 export default function Cta() {
   const [isLoading, setIsLoading] = useState<boolean>(false)
   return (
-    <section className="bg-gray-50 dark:bg-gray-900 py-4 sm:py-6 lg:py-8">
+    <section className="py-4 sm:py-6 lg:py-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
