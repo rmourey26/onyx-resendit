@@ -26,7 +26,7 @@ export default function Cta() {
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
                 <CardTitle className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold">Ready for the movement?</CardTitle>
-                <CardDescription className="mt-2 text-2xl font-bold text-brand-green-dark dark:text-brand-green-light">
+                <CardDescription className="mt-2 text-2xl font-bold">
                   Book a meeting today.
                 </CardDescription>
               </motion.div>
@@ -51,7 +51,7 @@ export default function Cta() {
           target="_blank"
           rel="noreferrer"
           href={siteConfig.links.contact}
-          className={buttonVariants({ variant: "brand"})}
+          className={buttonVariants({ variant: "outline"})}
         >
           Get Started
         </Link>
