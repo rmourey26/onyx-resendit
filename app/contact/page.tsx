@@ -29,7 +29,7 @@ export default async function ContactPage() {
                 Contact Us
               </h1>
               <p className="text-sm text-muted-foreground">
-                Request a meeting to get started or send us a general inquiry.
+                Request a meeting to get started or send a general inquiry. 
               </p>
             </div>
                         <Contact/>
