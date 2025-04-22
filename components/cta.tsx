@@ -51,7 +51,7 @@ export default function Cta() {
           target="_blank"
           rel="noreferrer"
           href={siteConfig.links.contact}
-          className={buttonVariants({ variant: "outline"})}
+          className={buttonVariants({ variant: "primary"})}
         >
           Get Started
         </Link>
