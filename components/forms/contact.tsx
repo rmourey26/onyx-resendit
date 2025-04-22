@@ -119,7 +119,7 @@ export function Contact() {
             type="submit"
             disabled={isLoading}
                                 className="w-full flex items-center gap-2"
-                                variant="outline"
+                                variant="default"
                         >
                                 Send Message
                                 <ChevronRight className="ml-2 h-4 w-4"/>
