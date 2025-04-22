@@ -25,8 +25,8 @@ export default async function IndexPage() {
   return (
             <section className="relative max-w-dvw w-full overflow-hidden">
 
- <div className="container px-4 md:px-6 mx-auto flex flex-col space-y-8 items-center gap-6 pb-16 pt-16 sm:pt-16 sm:pb-24">
-      <div className="flex mx-auto flex-col px-4 md:px-6 lg:px-8 w-full items-center gap-8">
+ <div className="container px-4 md:px-6 mx-auto flex flex-col space-y-16 items-center pb-16 pt-16 sm:pt-16 sm:pb-24">
+      <div className="flex mx-auto flex-col px-4 md:px-6 lg:px-8 w-full items-center gap-10">
         <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-tight tracking-tighter md:text-6xl xs:text-left md: text-center">
           Sustainable Shipping Reimagined
         </h1>
