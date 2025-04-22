@@ -34,7 +34,7 @@ export default async function IndexPage() {
   
 
 <iframe className="aspect-video max-w-3xl w-full place-self-center overflow-hidden rounded-lg shadow-lg" src="https://www.youtube.com/embed/rq0lS7ZKYFQ?si=GTgF6H3Rr78LRA2z"></iframe>
-        <p className="max-w-3xl text-base xs:text-justify text-muted-foreground">Reduce waste, reinvent optimization, and maximize revenue while rewarding your customers like never before with our Smart Packaging as-a Service platform.</p>
+        <p className="max-w-3xl text-xl xs:text-justify text-muted-foreground">Reduce waste, reinvent optimization, and maximize revenue while rewarding your customers like never before with our Smart Packaging as-a Service platform.</p>
        </div>
        </div>
        <Cta/>
