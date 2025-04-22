@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     },
   },
   referrer: 'origin-when-cross-origin',
-  keywords: ['resusable packaging solutions', 'sustainable packaging', 'sustainable shipment', 'supply chain', 'logistics', 'blockchain', 'AI'],
+  keywords: ['resusable packaging solutions', 'sustainable packaging', 'sustainable shipment', 'supply chain', 'logistics', 'sustainable shipping re-imagined', 'circular economy', 'spaas', 'blockchain', 'AI', 'ai agents', 'vectorized embedding', 'IoT analytics', 'real time supply chain optimization', 'digital business tools', 'AI tools for business', 'reduce waste drive revenue and optimize your business cycle while rewarding your customers like never before'],
   authors: [{ name: 'Resend-It' }],
   creator: 'Robert Mourey Jr.',
   publisher: 'Resend-It', 
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  generator: 'NextJS',
+  generator: 'resend-it.com',
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
