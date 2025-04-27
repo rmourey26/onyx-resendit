@@ -4,123 +4,126 @@
 
 @custom-variant dark (&:is(.dark *));
 
-
 :root {
-  /* Base colors derived from the ResendIt logo */
+  /* Base colors derived from the ResendIt logo with tech enhancements */
   --resend-green: 142 70% 45%;
-  --resend-black: 0 0% 10%;
+  --tech-blue: 210 100% 50%;
+  --blockchain-purple: 265 89% 60%;
+  --ai-teal: 175 84% 45%;
+  --data-navy: 220 70% 20%;
+  --smart-black: 220 30% 10%;
 
   /* Main colors */
-  --background: 0 0% 100%;
-  --foreground: var(--resend-black);
+  --background: 220 20% 98%;
+  --foreground: var(--smart-black);
 
   /* Card colors */
   --card: 0 0% 100%;
-  --card-foreground: var(--resend-black);
+  --card-foreground: var(--smart-black);
 
   /* Popover colors */
   --popover: 0 0% 100%;
-  --popover-foreground: var(--resend-black);
+  --popover-foreground: var(--smart-black);
 
   /* Primary colors - using the ResendIt green */
   --primary: var(--resend-green);
   --primary-foreground: 0 0% 100%;
 
-  /* Secondary colors */
-  --secondary: 0 0% 96%;
-  --secondary-foreground: var(--resend-black);
+  /* Secondary colors - tech blue */
+  --secondary: var(--tech-blue);
+  --secondary-foreground: 0 0% 100%;
 
   /* Muted colors */
-  --muted: 0 0% 96%;
-  --muted-foreground: 0 0% 45%;
+  --muted: 220 20% 94%;
+  --muted-foreground: 220 10% 40%;
 
-  /* Accent colors - a lighter version of the ResendIt green */
-  --accent: 142 50% 96%;
-  --accent-foreground: var(--resend-green);
+  /* Accent colors - blockchain purple */
+  --accent: var(--blockchain-purple);
+  --accent-foreground: 0 0% 100%;
 
   /* Destructive colors */
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
 
   /* Border, input, and ring colors */
-  --border: 0 0% 90%;
-  --input: 0 0% 90%;
+  --border: 220 20% 88%;
+  --input: 220 20% 88%;
   --ring: var(--resend-green);
 
-  /* Chart colors */
+  /* Chart colors - tech-inspired palette */
   --chart-1: var(--resend-green);
-  --chart-2: 142 40% 60%;
-  --chart-3: 142 30% 75%;
-  --chart-4: 170 70% 45%;
-  --chart-5: 200 70% 45%;
+  --chart-2: var(--tech-blue);
+  --chart-3: var(--blockchain-purple);
+  --chart-4: var(--ai-teal);
+  --chart-5: 30 95% 60%;
 
-  /* Border radius */
-  --radius: 0.625rem;
+  /* Border radius - slightly more angular for tech feel */
+  --radius: 0.5rem;
 
   /* Sidebar colors */
-  --sidebar: 0 0% 98%;
-  --sidebar-foreground: var(--resend-black);
+  --sidebar: 220 30% 15%;
+  --sidebar-foreground: 220 20% 98%;
   --sidebar-primary: var(--resend-green);
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 142 50% 96%;
-  --sidebar-accent-foreground: var(--resend-green);
-  --sidebar-border: 0 0% 90%;
+  --sidebar-accent: var(--blockchain-purple);
+  --sidebar-accent-foreground: 0 0% 100%;
+  --sidebar-border: 220 30% 20%;
   --sidebar-ring: var(--resend-green);
 }
 
 .dark {
-  /* Dark mode colors derived from the ResendIt logo */
-  --background: 0 0% 10%;
-  --foreground: 0 0% 98%;
+  /* Dark mode colors - more tech-focused */
+  --background: 220 30% 10%;
+  --foreground: 220 20% 98%;
 
   /* Card colors */
-  --card: 0 0% 15%;
-  --card-foreground: 0 0% 98%;
+  --card: 220 30% 13%;
+  --card-foreground: 220 20% 98%;
 
   /* Popover colors */
-  --popover: 0 0% 15%;
-  --popover-foreground: 0 0% 98%;
+  --popover: 220 30% 13%;
+  --popover-foreground: 220 20% 98%;
 
   /* Primary colors - using the ResendIt green */
   --primary: var(--resend-green);
   --primary-foreground: 0 0% 100%;
 
-  /* Secondary colors */
-  --secondary: 0 0% 20%;
-  --secondary-foreground: 0 0% 98%;
+  /* Secondary colors - tech blue */
+  --secondary: var(--tech-blue);
+  --secondary-foreground: 0 0% 100%;
 
   /* Muted colors */
-  --muted: 0 0% 20%;
-  --muted-foreground: 0 0% 65%;
+  --muted: 220 30% 18%;
+  --muted-foreground: 220 20% 70%;
 
-  /* Accent colors - a darker version of the ResendIt green */
-  --accent: 142 30% 20%;
-  --accent-foreground: var(--resend-green);
+  /* Accent colors - blockchain purple */
+  --accent: var(--blockchain-purple);
+  --accent-foreground: 0 0% 100%;
 
   /* Destructive colors */
   --destructive: 0 70% 50%;
   --destructive-foreground: 0 0% 100%;
 
   /* Border, input, and ring colors */
-  --border: 0 0% 25%;
-  --input: 0 0% 25%;
+  --border: 220 30% 20%;
+  --input: 220 30% 20%;
   --ring: var(--resend-green);
 
   /* Chart colors */
   --chart-1: var(--resend-green);
-  --chart-2: 142 60% 50%;
-  --chart-3: 142 40% 60%;
-  --chart-4: 170 60% 50%;
-  --chart-5: 200 60% 50%;
+  --chart-2: var(--tech-blue);
+  --chart-3: var(--blockchain-purple);
+  --chart-4: var(--ai-teal);
+  --chart-5: 30 95% 60%;
 
   /* Sidebar colors */
-  --sidebar: 0 0% 15%;
-  --sidebar-foreground: 0 0% 98%;
+  --sidebar: 220 40% 8%;
+  --sidebar-foreground: 220 20% 98%;
   --sidebar-primary: var(--resend-green);
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 142 30% 20%;
-  --sidebar-accent-foreground: var(--resend-green);
-  --sidebar-border: 0 0% 25%;
+  --sidebar-accent: var(--blockchain-purple);
+  --sidebar-accent-foreground: 0 0% 100%;
+  --sidebar-border: 220 40% 15%;
   --sidebar-ring: var(--resend-green);
 }
 
@@ -149,9 +152,9 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
   --radius-xl: calc(var(--radius) + 4px);
   --color-sidebar: var(--sidebar);
   --color-sidebar-foreground: var(--sidebar-foreground);
@@ -172,25 +175,112 @@
   }
 }
 
-/* Custom utility classes for ResendIt branding */
+/* Custom utility classes for Smart Packaging tech platform */
 @layer utilities {
-  .resend-gradient {
-    background: linear-gradient(135deg, hsl(var(--resend-green)), hsl(170, 70%, 45%));
+  /* Tech-inspired gradients */
+  .tech-gradient {
+    background: linear-gradient(135deg, hsl(var(--resend-green)), hsl(var(--tech-blue)));
   }
 
-  .resend-border {
-    border: 2px solid hsl(var(--resend-green));
+  .blockchain-gradient {
+    background: linear-gradient(135deg, hsl(var(--blockchain-purple)), hsl(var(--resend-green)));
   }
 
-  .resend-shadow {
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  .ai-gradient {
+    background: linear-gradient(135deg, hsl(var(--ai-teal)), hsl(var(--tech-blue)));
   }
 
+  /* Glass morphism effect for modern UI */
+  .glass {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .glass-dark {
+    background: rgba(20, 20, 40, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  /* Data visualization styles */
+  .data-grid {
+    background-image: linear-gradient(rgba(var(--tech-blue), 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(var(--tech-blue), 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  /* Blockchain-inspired elements */
+  .blockchain-node {
+    border-radius: 8px;
+    background-color: hsl(var(--blockchain-purple));
+    box-shadow: 0 0 15px rgba(var(--blockchain-purple), 0.5);
+  }
+
+  /* AI-inspired elements */
+  .ai-pattern {
+    background-image: radial-gradient(circle at 1px 1px, hsl(var(--ai-teal)) 1px, transparent 0);
+    background-size: 20px 20px;
+  }
+
+  /* Smart packaging brand elements */
   .resend-circle {
     border-radius: 50%;
     background-color: hsl(var(--resend-green));
     color: white;
+    box-shadow: 0 0 15px rgba(var(--resend-green), 0.3);
+  }
+
+  /* Tech borders */
+  .tech-border {
+    border: 1px solid transparent;
+    border-image: linear-gradient(135deg, hsl(var(--resend-green)), hsl(var(--tech-blue)));
+    border-image-slice: 1;
+  }
+
+  /* Animated pulse for active elements */
+  .pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
   }
 }
 
+/* Additional animations for tech interactions */
+@keyframes data-flow {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
 
+.data-flow {
+  background: linear-gradient(
+    135deg,
+    rgba(var(--resend-green), 0.1),
+    rgba(var(--tech-blue), 0.1),
+    rgba(var(--blockchain-purple), 0.1),
+    rgba(var(--ai-teal), 0.1)
+  );
+  background-size: 400% 400%;
+  animation: data-flow 15s ease infinite;
+}
+
+/* Subtle grid for data-focused layouts */
+.tech-grid {
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, rgba(var(--tech-blue), 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(var(--tech-blue), 0.05) 1px, transparent 1px);
+}
