@@ -10,7 +10,7 @@ const ContentSecurityPolicy = `
   script-src 'self' 'unsafe-eval' 'unsafe-inline' *.supabase.co googleapis.com;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
-  media-src *.supabase.co quantumone.b-cdn.net *.unsplash.com youtube.com;
+  media-src *.supabase.co quantumone.b-cdn.net *.unsplash.com youtube.com *.vercel-storage.com;
   connect-src *;
   font-src 'self' googleapis.com;
   frame-src *.supabase.co youtube.com www.youtube.com;
