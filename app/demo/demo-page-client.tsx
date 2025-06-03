@@ -13,7 +13,7 @@ const features = [
     title: "AI-Enhanced Shipping Dashboard",
     description: "Real-time monitoring of shipments with AI-powered insights and IoT sensor analytics.",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/shipping_dashboard-hKddLv4DYZswFdlzb1ulxxqu2iRE5D.png",
+      "https://quantumone.b-cdn.net/resendit/shipping_dashboard.png",
     alt: "AI-Enhanced Shipping Dashboard",
   },
   {
