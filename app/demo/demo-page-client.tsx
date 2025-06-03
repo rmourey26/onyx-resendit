@@ -19,7 +19,7 @@ const features = [
   {
     title: "Sustainability & ROI Dashboard",
     description: "Track environmental impact and return on investment with detailed metrics and reporting.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sustainability-AfejwBpwkhIt1FojWL6YaRH3cd9UDm.png",
+    image: "https://quantumone.b-cdn.net/resendit/sustainability.png",
     alt: "Sustainability Dashboard",
   },
   {
