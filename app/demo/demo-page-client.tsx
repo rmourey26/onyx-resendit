@@ -32,7 +32,7 @@ const features = [
     title: "RAG Configuration",
     description: "Configure Retrieval Augmented Generation settings for your AI agents.",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/RAG_retrieval_settings-08eus0D6l8wXJcS5rPtZywlJjzZjpf.png",
+      "https://quantumone.b-cdn.net/resendit/RAG_advanced_settings.png",
     alt: "RAG Configuration",
   },
   {
@@ -40,7 +40,7 @@ const features = [
     description:
       "Powerful AI tools for business optimization, including web search, database queries, and data analysis.",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ai_business_suite_agent_tools-l7xO8Pd9zHng7D6RBDAIOG6Q04XAbf.png",
+      "https://quantumone.b-cdn.net/resendit/ai_business_suite_agent_tools.png",
     alt: "AI Business Suite Agent Tools",
   },
   {
