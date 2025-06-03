@@ -25,8 +25,7 @@ const features = [
   {
     title: "Branded Reusable Packaging",
     description: "Design eco-friendly, reusable packaging with your brand identity.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/branded_resusable_packaging-jrPwRU5n5niiqfJSXHW7ETSsymsRqi.png",
+    image:"https://quantumone.b-cdn.net/resendit/branded_resusable_packaging.png",
     alt: "Branded Reusable Packaging",
   },
   {
